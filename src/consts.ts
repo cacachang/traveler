@@ -3,15 +3,15 @@
 
 // Base Page Metadata, src/layouts/BaseLayout.astro
 export const BRAND_NAME = "AstroMelody";
-export const SITE_TITLE = "AstroMelody";
-export const SITE_DESCRIPTION = "An Astro Theme for Visual Storytelling";
+export const SITE_TITLE = "Ning's Travel Blog";
+export const SITE_DESCRIPTION = "A Trip Diary of a software engineer";
 export const LIGHT_THEME = 'corporate';
 export const DARK_THEME = 'halloween';
 
 // Tags Page Metadata, src/pages/tags/index.astro
-export const Tags_TITLE = "AstroMelody - All Tags";
+export const Tags_TITLE = "旅遊部落格";
 export const Tags_DESCRIPTION =
-  "AstroMelody - All tags and the count of articles related to each tag";
+  "記錄我的旅遊點點滴滴";
 
 // Tags Page Metadata, src/pages/tags/[tag]/[page].astro
 export function getTagMetadata(tag: string) {
@@ -31,9 +31,8 @@ export function getCategoryMetadata(category: string) {
 
 // Header Links, src/components/Header.astro
 export const HeaderLinks = [
-  { href: "/category/One/1/", title: "One" },
-  { href: "/category/Two/1/", title: "Two" },
-  { href: "/category/Three/1/", title: "Three" },
+  { href: "/category/europe/", title: "歐洲" },
+  { href: "/category/asia/", title: "亞洲" },
 ];
 
 // Footer Links, src/components/Footer.astro
