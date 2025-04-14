@@ -99,6 +99,10 @@ h1, h2, h3 {
 	object-fit: cover;
 }
 
+img {
+	width: 100%;
+}
+
 /* Image Hover Effect */
 
 .hovereffect {
