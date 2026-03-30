@@ -1,5 +1,6 @@
 ---
-title: 【荷蘭南荷蘭省】鬱金香的夢幻王國 - 庫肯霍夫花園
+title: 庫肯霍夫花園 - 鬱金香的夢幻王國
+location: 荷蘭南荷蘭省
 date: 2026-03-30 22:42:14
 tags:
 cover_image: tulip_rainbow_sea.jpg

@@ -1,5 +1,6 @@
 ---
-title: 【日本中部岐阜】一起穿越到江戶 - 馬籠宿一日遊
+title: 馬籠宿一日遊 - 一起穿越到江戶
+location: 日本中部岐阜
 date: 2025-04-13 15:31:03
 tags:
 cover_image: https://imgur.com/yBjoWci.jpg
