@@ -125,6 +125,11 @@ h1, h2, h3 {
 		height: auto;
 		aspect-ratio: 4/3;
 	}
+
+	/* 手機版文章內圖片滿版 */
+	.portfolio-content img {
+		width: 100%;
+	}
 }
 
 .project-img {
@@ -207,4 +212,46 @@ img {
 	font-weight: 300;
 	margin: 0 10px;
 	color: #000;
+}
+
+/* 表格樣式 */
+.portfolio-content table {
+	width: 100%;
+	border-collapse: collapse;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.85rem;
+	margin: 15px 0;
+}
+
+.portfolio-content table th {
+	background: #555;
+	color: #fff;
+	padding: 12px 8px;
+	font-weight: 600;
+	letter-spacing: 0.5px;
+	text-align: center;
+}
+
+.portfolio-content table td {
+	padding: 12px 8px;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+
+.portfolio-content table th {
+	border: 1px solid #444;
+}
+
+.portfolio-content table tr:hover {
+	background: #f9f9f9;
+}
+
+@media (max-width: 767px) {
+	.portfolio-content table {
+		font-size: 0.75rem;
+	}
+	.portfolio-content table th,
+	.portfolio-content table td {
+		padding: 8px 4px;
+	}
 }
